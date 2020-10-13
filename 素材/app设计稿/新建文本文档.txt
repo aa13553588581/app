@@ -1,0 +1,11 @@
+http://www.xueui.cn/design-theory/the-mobile-h5-page-design.html
+
+http://www.360doc.com/content/16/0905/22/366082_588675270.shtml
+
+
+750x1334
+
+栏高：40-88-98
+
+网格 8像素
+子网格1

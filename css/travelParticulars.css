@@ -1,0 +1,515 @@
+html {
+    font-size: 100px
+}
+
+body {
+    font-size: 0.16rem
+}
+
+.header {
+    width: 100%;
+    background: rgba(40, 40, 40, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 0.64rem;
+    box-sizing: border-box;
+    padding: 0.2rem 0.3rem 0;
+    /* text-align: ; */
+}
+
+.header .left {
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.20rem;
+    background: url("../images/icon/sprites.png")no-repeat -0.50rem -0.17rem;
+    background-size: 3.75rem 4.75rem;
+    vertical-align: middle;
+}
+
+.header .text {
+    display: inline-block;
+    width: 77%;
+    text-align: center;
+    color: white;
+}
+
+.header .share-icon {
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.20rem;
+    background: url("../images/icon/sprites.png")no-repeat -2.28rem -3.13rem;
+    background-size: 3.75rem 4.75rem;
+    vertical-align: middle;
+    margin-right: 0.1rem;
+}
+
+.header span:last-child {
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+    /* font-size: 0.rem; */
+}
+
+
+/*  */
+
+.bgimg {
+    width: 100%;
+    height: 2.64rem;
+    position: relative;
+}
+
+.bgimg img {
+    width: 100%;
+}
+
+.bgimg p {
+    background: rgba(40, 40, 40, 0.2);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    width: 100%;
+}
+
+.bgimg p span {
+    display: inline-block;
+    padding: 0 0.1rem;
+}
+
+.bgimg p span:nth-of-type(1) {
+    padding-left: 0.2rem;
+}
+
+.bgimg p span:nth-of-type(2) {
+    height: 0.24rem;
+    border-right: 1px solid #ffffff;
+    padding: 0;
+}
+
+.bgimg p span:nth-of-type(4) {
+    margin-left: 0.45rem;
+}
+
+
+/*  */
+
+.introduce {
+    width: 100%;
+}
+
+.introduce ul>li {
+    padding: 0.2rem;
+    line-height: 0.3rem;
+    border-bottom: 1px solid #999999;
+    color: #999999;
+}
+
+.introduce li:nth-of-type(1) p:nth-of-type(2) {
+    width: 0.8rem;
+    height: 0.30rem;
+    background: url("../images/icon/sprites.png")no-repeat;
+    background-size: 3.75rem 4.75rem;
+    background-position: -0.19rem -2rem;
+}
+
+.introduce li:nth-of-type(1) p:nth-of-type(3) span {
+    color: orange;
+}
+
+.introduce li:nth-of-type(1) p:nth-of-type(3) span:nth-of-type(1) {
+    font-size: 0.08rem;
+}
+
+.introduce li:nth-of-type(1) p:nth-of-type(3) span:nth-of-type(2) {
+    font-size: 0.2rem;
+}
+
+.introduce li:nth-of-type(1) p:nth-of-type(3) span:nth-of-type(3) {
+    font-size: 0.08rem;
+    color: #999999;
+    padding-right: 0.2rem;
+}
+
+.introduce li:nth-of-type(1) p:nth-of-type(3) a {
+    padding: 0 0.1rem;
+    border: 1px solid #999999;
+    background: rgb(230, 230, 230);
+    font-size: 0.10rem
+}
+
+.introduce li:nth-of-type(2) {
+    font-size: 0.10rem;
+    position: relative;
+}
+
+.introduce li:nth-of-type(2) div>span {
+    display: block;
+    float: left;
+    height: 0.6rem;
+    margin-right: 0.1rem;
+}
+
+.introduce li:nth-of-type(2) div:nth-of-type(1)>span span {
+    border: 1px solid red;
+    border-radius: 0.03rem;
+    color: red;
+    padding: 0.03rem;
+}
+
+.introduce li:nth-of-type(2) div:nth-of-type(2)>span span {
+    border-radius: 0.03rem;
+    color: white;
+    background-color: red;
+    padding: 0.03rem;
+}
+
+.introduce li:nth-of-type(2) i {
+    display: block;
+    position: absolute;
+    top: 40%;
+    right: 0.2rem;
+    font-size: 0.2rem;
+}
+
+.introduce li:nth-of-type(2) p {
+    position: relative;
+    text-indent: 0.1rem;
+}
+
+.introduce li:nth-of-type(2) p span {
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    left: 0.4rem;
+    top: 0.15rem;
+}
+
+
+/*  */
+
+.comment {
+    width: 100%;
+    padding: 0.1rem 0;
+    background: rgb(230, 230, 230);
+}
+
+.comment ul {
+    background: white;
+    border-bottom: 1px solid #999999;
+    border-top: 1px solid #999999;
+}
+
+.comment ul li {
+    margin: 0 0.2rem;
+    padding: 0.2rem 0;
+    color: #999999;
+}
+
+.comment ul li:nth-child(1) {
+    border-bottom: 1px solid #999999;
+    line-height: 0.3rem;
+    font-size: 0.12rem
+}
+
+.comment ul li p>span {
+    display: inline-block;
+}
+
+.comment ul li em {
+    color: orange;
+}
+
+.comment ul li:nth-child(1)>span:first-child {
+    border-right: 1px solid #999999;
+    padding-right: 0.1rem;
+    font-size: 0.2rem
+}
+
+.comment ul li:nth-child(1)>span:nth-of-type(2) {
+    padding-left: 0.1rem;
+}
+
+.comment ul li:nth-child(1) p span {
+    margin-right: 0.1rem;
+}
+
+.comment ul li:nth-child(1) p>span span {
+    background: rgb(230, 230, 230);
+    padding: 0.02rem;
+}
+
+.comment ul li:nth-child(2) p:first-child span:last-child {
+    float: right;
+}
+
+.comment ul li:nth-child(2) p:first-child {
+    margin-bottom: 0.1rem;
+}
+
+.comment ul li:nth-child(2) p:nth-of-type(2) {
+    font-size: 0.14rem;
+}
+
+.comment ul li:nth-child(2) p:last-child {
+    width: 100%;
+    text-align: center;
+    margin-top: 0.1rem;
+}
+
+.comment ul li:nth-child(2) p:last-child span {
+    border: 1px solid rgb(39, 124, 173);
+    padding: 0.05rem 0.3rem;
+    border-radius: 0.05rem;
+}
+
+.comment ul li:nth-child(2) p:last-child span a {
+    color: rgb(39, 124, 173);
+}
+
+
+/*  */
+
+.product-feature {
+    border-top: 1px solid #999999;
+}
+
+.product-feature>ul {
+    height: 0.68rem;
+    box-sizing: border-box;
+}
+
+.product-feature>ul li {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+}
+
+.product-feature>ul .active {
+    border-bottom: 4px solid orange;
+    color: rgb(39, 124, 173);
+}
+
+.product-feature>div,
+.product-feature>div img {
+    width: 100%;
+}
+
+.product-feature>div ul li {
+    height: 1.70rem;
+}
+
+
+/*  */
+
+.route>ul {
+    height: 0.68rem;
+    box-sizing: border-box;
+}
+
+.route>ul li {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+}
+
+.route>ul .active {
+    border-bottom: 4px solid orange;
+    color: rgb(39, 124, 173);
+}
+
+.route>div {
+    border-left: 1px dashed rgb(39, 124, 173);
+    margin: 0.2rem 0.4rem 0;
+}
+
+.route>div p {
+    padding-left: 0.1rem;
+    color: #999999;
+    font-size: 0.14rem;
+    position: relative;
+    line-height: 0.3rem;
+}
+
+.route>div p i {
+    display: block;
+    width: 0.06rem;
+    height: 0.06rem;
+    border-radius: 50%;
+    background: rgb(39, 124, 173);
+    position: absolute;
+    left: -0.04rem;
+    top: 0.12rem;
+}
+
+.route>div p>span {
+    display: inline-block;
+    margin-left: 0.2rem;
+}
+
+.route>div p span span {
+    border: 1px solid #999999;
+}
+
+.position {
+    width: 0.38rem;
+    height: 0.2rem;
+    display: block;
+    background: url("../images/icon/sprites.png")no-repeat -1.25rem -2.07rem;
+    background-size: 3.75rem 4.75rem;
+    position: absolute;
+    left: -0.6rem;
+    top: 0.12rem;
+    font-size: 0.08rem;
+    line-height: 0.2rem;
+    color: white;
+}
+
+.route>div li div {
+    margin-left: 0.4rem;
+}
+
+.route>div li div dl {
+    margin: 0.1rem 0 0.2rem 0;
+}
+
+.route>div li div dd {
+    width: 48%;
+    display: inline-block;
+    border: 1px solid #999999;
+    height: 1.06rem;
+}
+
+.route>div li div dd img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*  */
+
+.book {
+    margin-bottom: 0.8rem;
+}
+
+.book>ul {
+    height: 0.68rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #999999;
+}
+
+.book>ul li {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+}
+
+.book>ul .active {
+    border-bottom: 4px solid orange;
+    color: rgb(39, 124, 173);
+}
+
+.book>div {
+    margin: 0.4rem;
+    font-size: 0.14rem;
+}
+
+.book>div p {
+    line-height: 0.4rem;
+    font-size: 0.16rem;
+    color: rgb(39, 124, 173);
+}
+
+.book>div ul li:first-child {
+    position: relative;
+}
+
+.book>div ul li:first-child span {
+    display: block;
+    width: 0.23rem;
+    height: 0.23rem;
+    background: url("../images/icon/sprites.png")no-repeat -1.79rem -2.05rem;
+    background-size: 3.75rem 4.75rem;
+    position: absolute;
+    top: 0;
+    left: -0.3rem;
+}
+
+
+/*  */
+
+footer {
+    width: 100%;
+    background: rgb(232, 232, 232);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+footer ul {
+    background: rgb(232, 232, 232);
+}
+
+footer ul li {
+    text-align: center;
+    float: left;
+    width: 20%;
+    border-right: 1px solid #999999;
+    padding: 0.1rem 0;
+}
+
+footer ul li:last-child {
+    width: 39.2%;
+}
+
+footer ul li a {
+    display: block;
+    width: 0.28rem;
+    height: 0.28rem;
+    background: url("../images/icon/sprites.png")no-repeat;
+    background-size: 3.75rem 4.75rem;
+    margin: auto;
+}
+
+footer ul li:nth-of-type(4) {
+    border-right: none;
+}
+
+footer ul li:nth-of-type(4) a {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+footer ul li:nth-of-type(1) a {
+    background-position: -2.31rem -1.63rem;
+}
+
+footer ul li:nth-of-type(2) a {
+    background-position: -2.73rem -1.63rem;
+}
+
+footer ul li:nth-of-type(3) a {
+    background-position: -3.11rem -1.63rem;
+}
+
+footer ul li:nth-of-type(4) {
+    background: rgb(237, 147, 17);
+    line-height: 0.28rem;
+}
+
+footer ul li:nth-of-type(4) a {
+    color: white;
+    background: none;
+}

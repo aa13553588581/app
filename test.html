@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/jd_phnoe.css" rel="external nofollow">
+    <link rel="stylesheet" href="./css/base.css" rel="external nofollow">
+    <title>Document</title>
+
+    <script src="./js/jd_phnoe.js"></script>
+    <style>
+        /* 搜索部分 */
+        
+        .jd_layout {
+            width: 100%;
+            max-width: 640px;
+            min-width: 320px;
+            height: auto;
+            margin: 0px auto;
+            background-color: #ccc;
+        }
+        /* 轮播图部分 */
+        
+        .jd_banner {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .jd_bannerimg {
+            width: 1000%;
+            position: relative;
+        }
+        
+        .jd_bannerimg>li {
+            width: 10%;
+            float: left;
+        }
+        
+        .jd_bannerimg>li img {
+            width: 100%;
+            /*1.设置为块元素
+ 2.可以将文本的字体大小设置为0
+ 3.vertical-align:bottom*/
+            display: block;
+        }
+        /* 点标记 */
+        
+        .jd_bannerIndicator {
+            position: absolute;
+            left: 50%;
+            bottom: 5px;
+            transform: translateX(-50%);
+        }
+        
+        .jd_bannerIndicator li {
+            width: 6px;
+            height: 6px;
+            float: left;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            /* opacity: 0.7; */
+            margin: 0 3px;
+            /* cursor: pointer; */
+        }
+        
+        .jd_bannerIndicator li:first-of-type {
+            margin-left: 0px;
+        }
+        
+        .jd_bannerIndicator>li.active {
+            background-color: #fff;
+        }
+        /*  */
+        /*公共样式*/
+        /*1.样式重置*/
+        
+        html,
+        body,
+        ul,
+        li,
+        img,
+        a,
+        p,
+        div,
+        form,
+        input,
+        h3 {
+            padding: 0;
+            margin: 0;
+            /*设置盒模型*/
+            box-sizing: border-box;
+            /*去除移动端特有的点击高亮效果*/
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        body {
+            font-family: "微软雅黑", sans-serif;
+            font-size: 13px;
+        }
+        
+        a,
+        a:hover {
+            color: #666;
+            text-decoration: none;
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        input {
+            /*1.清除文本框获取焦点时默认的边框阴影*/
+            outline: none;
+            /*2.去除边框*/
+            border: none;
+            /*3.添加边框*/
+            border: 1px solid #ccc;
+        }
+        /*2.添加新的样式*/
+        
+        .f_left {
+            float: left;
+        }
+        
+        .f_right {
+            float: right;
+        }
+        
+        .m_left10 {
+            margin-left: 10px;
+        }
+        
+        .m_right10 {
+            margin-right: 10px;
+        }
+        
+        .m_top10 {
+            margin-top: 10px;
+        }
+        
+        .clearfix::before,
+        .clearfix::after {
+            content: "";
+            display: block;
+            height: 0;
+            line-height: 0px;
+            clear: both;
+            visibility: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="jd_layout">
+        <div class="jd_banner">
+            <ul class="jd_bannerimg clearfix">
+                <li>
+                    <a href="javascript:;" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow"> <img src="images/img/banner1.jpg" alt="" /> </a>
+                </li>
+                <li>
+                    <a href="javascript:;" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow"> <img src="images/img/banner2.jpg" alt="" /> </a>
+                </li>
+                <li>
+                    <a href="javascript:;" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow"> <img src="images/img/banner3.jpg" alt="" /> </a>
+                </li>
+                <li>
+                    <a href="javascript:;" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow" rel="external nofollow"> <img src="images/img/banner4.jpg" alt="" /> </a>
+                </li>
+
+            </ul>
+            <!-- 点标记 -->
+            <ul class="jd_bannerIndicator clearfix">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

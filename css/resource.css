@@ -1,0 +1,354 @@
+html {
+    font-size: 100px
+}
+
+body {
+    font-size: 0.16rem;
+    background: rgb(229, 237, 236);
+}
+
+.header {
+    width: 100%;
+    background: rgb(17, 51, 158);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 0.4rem;
+    /* padding-bottom: 0.1rem; */
+    z-index: 2;
+}
+
+.header>p {
+    /* text-align: center; */
+    color: white;
+    margin: 0 0.3rem;
+    margin-bottom: 0.2rem;
+}
+
+.header>p i {
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.20rem;
+    background: url("../images/icon/sprites.png")no-repeat -0.50rem -0.17rem;
+    background-size: 3.75rem 4.75rem;
+    vertical-align: middle;
+    margin-right: 1rem;
+    text-align: left;
+}
+
+
+/* . */
+
+.title {
+    margin: 1.04rem 0.2rem 0.2rem 0.2rem;
+}
+
+.title div {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 0.3rem;
+}
+
+.title div:nth-of-type(1) p:nth-of-type(1) {
+    font-size: 0.2rem;
+    color: #999999;
+}
+
+.title div:nth-of-type(1) p:nth-of-type(2),
+.title div:nth-of-type(1) p:nth-of-type(3) {
+    color: #cccccc;
+}
+
+.title div:nth-of-type(1) p:nth-of-type(2) span,
+.title div:nth-of-type(1) p:nth-of-type(3) span {
+    color: #999999;
+}
+
+.title div:nth-of-type(2) {
+    padding-left: 0.2rem;
+    text-align: left;
+}
+
+.title div:nth-of-type(2) p:nth-of-type(1) {
+    color: orange;
+}
+
+.title div:nth-of-type(2) p:nth-of-type(1) span {
+    font-size: 0.3rem
+}
+
+.title div:nth-of-type(2) p:nth-of-type(2) a {
+    color: #999999;
+}
+
+
+/*  */
+
+.destination {
+    margin: 0.2rem;
+    background: white;
+    border: 1px solid #cccccc;
+    border-radius: 0.1rem;
+}
+
+.destination dl dt {
+    padding: 0.2rem 0;
+    border-bottom: 1px dashed #cccccc;
+    position: relative;
+}
+
+.destination dl dt>span {
+    display: inline-block;
+    text-align: center;
+    width: 32.3%;
+    font-size: 0.12rem;
+    color: #cccccc;
+}
+
+.destination dl dt i {
+    display: block;
+    width: 0.15rem;
+    height: 0.15rem;
+    background: rgb(229, 237, 236);
+    position: absolute;
+}
+
+.destination dl dt .left {
+    bottom: -0.075rem;
+    left: -0.1rem;
+    border-right: 1px solid #cccccc;
+    border-radius: 0 50% 50% 0;
+}
+
+.destination dl dt .right {
+    bottom: -0.075rem;
+    right: -0.1rem;
+    border-left: 1px solid #cccccc;
+    border-radius: 50% 0 0 50%;
+}
+
+.destination dl dt>span span {
+    font-size: 0.2rem;
+    color: #999999;
+}
+
+.destination dl dt>span:nth-of-type(2) span {
+    width: 0.39rem;
+    height: 0.31rem;
+    display: inline-block;
+    /* margin: auto; */
+    text-align: center;
+    margin-bottom: 0.15rem;
+    background: url("../images/icon/sprites.png")no-repeat -2.51rem -2.01rem;
+    background-size: 3.75rem 4.75rem;
+}
+
+.destination dl dd {
+    margin: 0.2rem 0;
+}
+
+.destination dl dd>div {
+    display: inline-block;
+    width: 49.2%;
+    color: #999999;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+}
+
+.destination dl dd>div span {
+    color: #cccccc;
+}
+
+.destination dl dd:last-child div:first-child a {
+    text-decoration: underline;
+}
+
+.destination dl dd:last-child div:last-child a {
+    color: darkturquoise;
+}
+
+
+/*  */
+
+.ticket {
+    padding: 0 0.2rem 0;
+}
+
+.ticket>div {
+    position: relative;
+}
+
+.ticket>div:first-child {
+    width: 100%;
+    background: url("../images/img/quan_03.png")no-repeat;
+    background-size: 3.48rem 1.075rem;
+    height: 1.075rem;
+    margin-bottom: 0.1rem;
+}
+
+.ticket>div:last-child {
+    width: 100%;
+    background: url("../images/img/quan_06.png")no-repeat;
+    background-size: 3.48rem 1.075rem;
+    height: 1.075rem;
+    margin-bottom: 0.1rem;
+}
+
+.ticket>div div {
+    position: absolute;
+    top: 0.2rem;
+    left: 1.8rem;
+    font-size: 0.1rem;
+    color: white;
+}
+
+.ticket>div div p:last-child {
+    margin-top: 0.1rem;
+}
+
+.ticket>div div p .add-subtract {
+    border: 1px solid #999999;
+    background-color: white;
+    color: #999999;
+}
+
+.ticket>div div p .add-subtract .subtract,
+.ticket>div div p .add-subtract .add {
+    padding: 0.1rem;
+}
+
+.ticket>div div p .add-subtract .count {
+    padding: 0 0.2rem;
+    background: orange;
+    opacity: 0.5;
+    color: #000;
+}
+
+.ticket>div:nth-of-type(2) div p .add-subtract .count {
+    padding: 0 0.2rem;
+    background: palevioletred;
+    opacity: 0.5;
+    color: #000;
+}
+
+.purchase {
+    margin: 0.2rem;
+    background: white;
+    border: 1px solid #cccccc;
+    border-radius: 0.1rem;
+    overflow: hidden;
+}
+
+.purchase dl dt {
+    color: #ffffff;
+    background: rgb(46, 165, 212);
+    border-bottom: 0.03rem solid rgb(71, 203, 233);
+    padding: 0.1rem 0.2rem;
+}
+
+.purchase dl dd {
+    border-bottom: 1px dashed #cccccc;
+    padding: 0.1rem 0;
+}
+
+.purchase dl dd>div {
+    display: inline-block;
+    padding-left: 0.2rem;
+    width: 20%;
+}
+
+.purchase dl dd .w70 {
+    width: 60%;
+    color: #999999;
+}
+
+.purchase dl dd>div .add-subtract {
+    border: 1px solid #999999;
+    background-color: white;
+    color: #999999;
+}
+
+.purchase dl dd>div .add-subtract .subtract,
+.purchase dl dd>div .add-subtract .add {
+    padding: 0.1rem;
+}
+
+.purchase dl dd>div .add-subtract .count {
+    padding: 0 0.2rem;
+    background: #cccccc;
+    color: #999999;
+}
+
+.purchase dl dd:nth-of-type(2) div:nth-of-type(1),
+.purchase dl dd:nth-of-type(2) div:nth-of-type(2) {
+    margin-bottom: 0.1rem;
+}
+
+.purchase dl dd .orange {
+    color: orange;
+    font-size: 0.18rem;
+    text-align: right;
+}
+
+.purchase dl dd .orange span:first-child {
+    font-size: 0.08rem;
+}
+
+.purchase dl dd .orange span:last-child {
+    font-size: 0.12rem;
+    color: #999999;
+}
+
+.purchase dl dd:last-child {
+    border-bottom: none;
+}
+
+.purchase dl dd:last-child p:nth-of-type(1),
+.purchase dl dd:last-child p:nth-of-type(2) {
+    padding-left: 0.2rem
+}
+
+.purchase dl dd:last-child p {
+    margin: 0.1rem 0;
+}
+
+.purchase dl dd:last-child p:nth-of-type(1) {
+    color: #999999;
+}
+
+.purchase dl dd:last-child p:nth-of-type(2) {
+    color: #cccccc;
+    font-size: 0.12rem;
+    padding-right: 0.2rem;
+}
+
+.purchase dl dd:last-child p:nth-of-type(2) i {
+    display: inline-block;
+    width: 0.16rem;
+    height: 0.16rem;
+    background: url("../images/icon/sprites.png")no-repeat -2.17rem -2.06rem;
+    background-size: 3.75rem 4.75rem;
+    color: #cccccc;
+}
+
+.purchase dl dd:last-child p:last-child {
+    text-align: right;
+    padding: 0 0.2rem;
+}
+
+.purchase dl dd:last-child p:last-child a {
+    color: rgb(46, 165, 212);
+}
+
+
+/*  */
+
+footer {
+    background: rgb(234, 147, 17);
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+footer a {
+    color: #ffffff;
+}

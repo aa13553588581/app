@@ -1,0 +1,259 @@
+html {
+    font-size: 100px
+}
+
+body {
+    font-size: 0.16rem
+}
+
+.header {
+    width: 100%;
+    background: rgb(17, 51, 158);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 0.64rem;
+    box-sizing: border-box;
+    padding: 0.2rem 0.3rem 0;
+}
+
+.header .left {
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.20rem;
+    background: url("../images/icon/sprites.png")no-repeat -0.50rem -0.17rem;
+    background-size: 3.75rem 4.75rem;
+    vertical-align: middle;
+}
+
+.header div {
+    display: inline-block;
+    border-radius: 0.5rem;
+    border: 1px solid #999999;
+    height: 0.34rem;
+    width: 90%;
+    vertical-align: middle;
+}
+
+.header .place {
+    border-right: 1px solid #999999;
+    display: block;
+    float: left;
+    padding: 0.05rem 0.1rem;
+}
+
+.header .search {
+    display: block;
+    float: left;
+    padding: 0.05rem 0.1rem;
+}
+
+.header .place-icon {
+    width: 0.14rem;
+    height: 0.18rem;
+    display: inline-block;
+    background: url("../images/icon/sprites.png")no-repeat -3.11rem -1.30rem;
+    background-size: 3.75rem 4.75rem;
+    margin-bottom: -0.03rem;
+}
+
+.header .search-icon {
+    width: 0.17rem;
+    height: 0.17rem;
+    display: inline-block;
+    background: url("../images/icon/galss_03.png")no-repeat;
+    background-size: 0.17rem 0.17rem;
+    margin-bottom: -0.03rem;
+    margin-right: 0.05rem;
+}
+
+.header div span {
+    color: #ffffff;
+}
+
+
+/*  */
+
+.travelLIst {
+    width: 100%;
+    margin-top: 0.64rem;
+    margin-bottom: 0.9rem;
+}
+
+.classify .active {
+    background-color: white;
+    border-top: 0.04rem solid orange;
+    color: blue;
+    box-sizing: border-box;
+}
+
+.classify {
+    height: 0.44rem;
+    box-sizing: border-box;
+}
+
+.classify li {
+    padding: 0.1rem 0.1rem;
+    float: left;
+    background: rgb(241, 241, 241);
+}
+
+.list {
+    margin: 0.1rem;
+}
+
+.list dd {
+    border-bottom: 1px solid #999999;
+    height: 1.00rem;
+}
+
+.list .left-img {
+    width: 1rem;
+    float: left;
+    margin-right: 0.05rem;
+    vertical-align: top;
+}
+
+.list .left-img img {
+    width: 100%;
+}
+
+.list .right-text {
+    float: left;
+    vertical-align: top;
+    margin-top: -0.04rem;
+    font-size: 0.1rem;
+}
+
+.list .right-text p:first-child {
+    font-size: 0.14rem;
+    text-indent: -0.07rem;
+}
+
+.list .right-text p:nth-of-type(2) span {
+    display: inline-block;
+    border: 1px solid #999999;
+    padding: 0 0.1rem;
+    margin-right: 0.1rem;
+    font-size: 0.06rem;
+}
+
+.list .right-text p:nth-of-type(2) span:last-child {
+    border: none;
+    background: rgb(61, 180, 218);
+    color: white;
+}
+
+.list .right-text p:nth-of-type(3) {
+    color: #999999;
+}
+
+.list .right-text p:nth-of-type(3) span {
+    padding-right: 0.1rem;
+    color: green;
+}
+
+.list .right-text p:nth-of-type(5) span {
+    display: inline-block;
+}
+
+.list .right-text p:nth-of-type(5) {
+    position: relative;
+}
+
+.list .right-text p:nth-of-type(5) span:nth-of-type(1) {
+    font-size: 0.06rem;
+    color: orange;
+}
+
+.list .right-text p:nth-of-type(5) span:nth-of-type(2) {
+    font-size: 0.14rem;
+    color: orange;
+}
+
+.list .right-text p:nth-of-type(5) span:nth-of-type(3) {
+    font-size: 0.06rem;
+    color: #999999;
+    margin-right: 0.2rem;
+}
+
+.list .right-text p:nth-of-type(5) span:nth-of-type(4) {
+    margin-right: 0.2rem;
+}
+
+.list .right-text p:nth-of-type(5) span:nth-of-type(5) {
+    margin-right: 0.1rem;
+}
+
+.list .right-text p:nth-of-type(5) span:nth-of-type(6) {
+    border: 1px solid #cccccc;
+    background: #cccccc;
+    position: absolute;
+    top: -0.1rem;
+    padding: 0 0.1rem;
+    width: 0.23rem;
+}
+
+.list .right-text p:nth-of-type(5) span:nth-of-type(6) span:nth-of-type(1) {
+    font-size: 0.18rem;
+    color: #666666;
+}
+
+.list .right-text p:nth-of-type(5) span:nth-of-type(6) span:nth-of-type(2) {
+    font-size: 0.08rem;
+    color: #999999;
+    /* padding-left: 0.1rem; */
+}
+
+
+/*  */
+
+.footer-bgColor {
+    background: rgb(231, 233, 237);
+    width: 100%;
+    height: 0.7rem;
+    padding-top: 0.1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+footer li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.footer-icon {
+    background: url("../images/icon/sprites.png")no-repeat;
+    background-size: 3.75rem 4.75rem;
+    display: block;
+    width: 0.28rem;
+    height: 0.28rem;
+    margin: auto;
+}
+
+footer li:nth-of-type(1) .footer-icon {
+    background-position: -2.7rem -1.25rem;
+}
+
+footer li:nth-of-type(2) .footer-icon {
+    background-position: -0.64rem -0.47rem;
+}
+
+footer li:nth-of-type(3) .footer-icon {
+    background-position: -1.04rem -0.47rem;
+}
+
+footer li:nth-of-type(4) .footer-icon {
+    background-position: -1.46rem -0.47rem;
+}
+
+footer .active {
+    color: blue;
+}
+
+footer li a {
+    color: #999999;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        html {
+            font-size: 100px;
+        }
+        
+        body {
+            font-size: 0.16rem;
+            margin: 0 0.2rem;
+        }
+        
+        .header {
+            margin-top: 0.3rem;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .header .left {
+            display: inline-block;
+            background: url("images/icon/sprites.png")no-repeat;
+            background-size: 3.75rem 4.75rem;
+            background-position: -0.27rem -0.14rem;
+            height: 0.2rem;
+            width: 0.2rem;
+            vertical-align: top;
+            float: left;
+        }
+        
+        form {
+            line-height: 0.4rem;
+        }
+        
+        form p:nth-of-type(1),
+        form p:nth-of-type(2),
+        form p:nth-of-type(3),
+        form p:nth-of-type(4) {
+            border-bottom: 1px solid #cccccc;
+        }
+        
+        form p {
+            width: 100%;
+        }
+        
+        form p label {
+            display: inline-block;
+            width: 25%;
+        }
+        
+        #phone,
+        #verification-code,
+        #password {
+            height: 0.4rem;
+            border: none;
+        }
+        
+        #phone {
+            width: 70%;
+        }
+        
+        .phone-icon {
+            display: inline-block;
+            width: 5%;
+            height: 0.13rem;
+            vertical-align: middle;
+            background: url("images/icon/sprites.png")no-repeat;
+            background-size: 3.75rem 4.75rem;
+            background-position: -1.13rem -0.18rem;
+        }
+        
+        #verification-code {
+            width: 45%;
+        }
+        
+        form p:nth-of-type(3) a {
+            display: inline-block;
+            padding: 0rem 0.079rem;
+            box-sizing: border-box;
+            height: 0.3rem;
+            vertical-align: center;
+            line-height: 0.3rem;
+            background: #cccccc;
+            border-radius: 0.05rem;
+            color: white;
+        }
+        
+        #password {
+            width: 65%;
+        }
+        
+        form p .pwd-icon1 {
+            display: inline-block;
+            width: 5%;
+            height: 0.13rem;
+            vertical-align: middle;
+            background: url("images/icon/sprites.png")no-repeat;
+            background-size: 3.75rem 4.75rem;
+            background-position: -1.13rem -0.18rem;
+        }
+        
+        form p .pwd-icon2 {
+            display: inline-block;
+            width: 5%;
+            height: 0.13rem;
+            vertical-align: middle;
+            background: url("images/icon/sprites.png")no-repeat;
+            background-size: 3.75rem 4.75rem;
+            background-position: -1.41rem -0.18rem;
+        }
+        
+        form p:nth-of-type(5) {
+            margin-top: 0.4rem;
+            width: 100%;
+        }
+        
+        form p:nth-of-type(5) input {
+            background: rgb(240, 176, 0);
+            width: 100%;
+            color: #FFFF;
+            border: none;
+            line-height: 0.4rem;
+            border-radius: 0.05rem;
+        }
+        
+        form p:nth-of-type(6) {
+            margin-top: 0.2rem;
+        }
+        
+        form p:nth-of-type(6) a {
+            display: block;
+            margin-bottom: 0.1rem;
+            padding: 0rem 0.079rem;
+            height: 0.3rem;
+            width: 0.64rem;
+            line-height: 0.3rem;
+            background: #cccccc;
+            border-radius: 0.05rem;
+            color: white;
+            text-align: center;
+            margin-left: 76%;
+        }
+    </style>
+</head>
+<p class="header"><span class="left"></span><span class="register">注册</span> </p>
+<section>
+    <form action="" method="post">
+        <p>
+            <label for="username">国家/地区</label><span>中国大陆 86</span>
+        </p>
+        <p>
+            <label for="phone">手机号</label><input maxlength="11" type="text" id="phone" placeholder="常用手机号"><i class=phone-icon></i>
+        </p>
+        <p>
+            <label for="verification-code">验证码</label><input type="text" id="verification-code" placeholder="短信验证码"><a href="#">获取验证码</a>
+        </p>
+        <p>
+            <label for="password">设置密码</label><input type="password" id="password" placeholder="6~12位大小写字母、数字"><i class="pwd-icon1"></i><i class="pwd-icon2"></i>
+        </p>
+        <p><input type="submit" id="submit" value="注册"></p>
+        <p><a href="#">重新发送</a><a href="#">60s</a></p>
+    </form>
+</section>
+
+<body>
+
+</body>
+<script src="js/js.js"></script>
+
+</html>

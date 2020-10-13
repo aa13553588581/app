@@ -1,0 +1,206 @@
+html {
+    font-size: 100px
+}
+
+body {
+    font-size: 0.16rem;
+    background: rgb(230, 230, 230);
+}
+
+.header {
+    width: 100%;
+    background: rgb(17, 51, 158);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 0.4rem;
+    padding-bottom: 0.1rem;
+    z-index: 2;
+}
+
+.header>p {
+    /* text-align: center; */
+    color: white;
+    margin: 0 0.3rem;
+    margin-bottom: 0.2rem;
+}
+
+.header>p i {
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.20rem;
+    background: url("../images/icon/sprites.png")no-repeat -0.50rem -0.17rem;
+    background-size: 3.75rem 4.75rem;
+    vertical-align: middle;
+    margin-right: 0.8rem;
+    text-align: left;
+}
+
+.header>p span {
+    display: inline-block;
+    float: right;
+    /* vertical-align: middle; */
+}
+
+
+/*  */
+
+.date {
+    margin-top: 0.91rem;
+    padding: 0.2rem 0.1rem;
+    background: white;
+}
+
+.date>p {
+    vertical-align: middle;
+}
+
+.date>p:nth-of-type(1) {
+    text-align: center;
+}
+
+.date>p:nth-of-type(1) i {
+    vertical-align: middle;
+    display: inline-block;
+    width: 0.155rem;
+    height: 0.255rem;
+    /* border: 1px solid #999999; */
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+.date>p:nth-of-type(1) i:nth-of-type(1),
+.date>p:nth-of-type(1) i:nth-of-type(3) {
+    background: url("../images/icon/sprites.png")no-repeat -0.71rem -0.12rem;
+    background-size: 3.75rem 4.75rem;
+}
+
+.date>p:nth-of-type(1) i:nth-of-type(2),
+.date>p:nth-of-type(1) i:nth-of-type(4) {
+    background: url("../images/icon/sprites.png")no-repeat -0.93rem -0.12rem;
+    background-size: 3.75rem 4.75rem;
+}
+
+.date>p:nth-of-type(2) span {
+    display: inline-block;
+    width: 12.8%;
+    text-align: center;
+    margin: 0.1rem 0;
+}
+
+.date>p:nth-of-type(2) {
+    padding-left: 0.1rem;
+    color: darkturquoise;
+    text-align: center;
+    border-bottom: 1px solid darkturquoise;
+}
+
+.date>p:nth-of-type(2)~p>span {
+    display: inline-block;
+    width: 12.8%;
+    text-align: center;
+    margin: 0.1rem 0;
+}
+
+.date>p:nth-of-type(6) i {
+    font-size: 0.08rem;
+    color: darkturquoise;
+}
+
+
+/*  */
+
+.price {
+    background: white;
+    margin-top: 0.1rem;
+}
+
+.price p {
+    margin-left: 0.2rem;
+    /* line-height: 0.4rem;s */
+    border-bottom: 1px solid #999999;
+    padding-right: 0.2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.price p .money {
+    display: inline-block;
+    color: orange;
+    margin-left: 0.2rem;
+}
+
+.price p .add-subtract {
+    float: right;
+    border: 1px solid #999999;
+}
+
+.price p .add-subtract .subtract,
+.price p .add-subtract .add {
+    padding: 0 0.1rem;
+}
+
+.price p .add-subtract .count {
+    padding: 0.02rem 0.2rem;
+    background: rgb(230, 230, 230)
+}
+
+.price p input {
+    margin-right: 0.1rem;
+}
+
+.price p:nth-of-type(4) {
+    color: #999999;
+    position: relative;
+    padding-left: 0.3rem;
+    border-bottom: none;
+}
+
+.price p:nth-of-type(4) i {
+    display: block;
+    width: 0.15rem;
+    height: 0.15rem;
+    position: absolute;
+    left: 0;
+    top: 0.25rem;
+    background: url("../images/icon/sprites.png")no-repeat -2.18rem -2.10rem;
+    background-size: 3.75rem 4.75rem;
+}
+
+.price p:nth-of-type(4)~p {
+    margin-left: 0;
+    border-top: 1px solid #999999;
+    border-bottom: none;
+    padding: 0;
+}
+
+.price p:last-child>span {
+    display: inline-block;
+    /* float: left; */
+    text-align: center;
+    width: 50%;
+    line-height: 0.4rem;
+    /* margin-bottom: 0.2rem; */
+    padding: 0.1rem 0;
+    color: orange;
+}
+
+.price p:last-child>span:nth-of-type(1) {
+    font-size: 0.14rem;
+}
+
+.price p:last-child>span span {
+    color: orange;
+    font-size: 0.16rem;
+    padding: 0 0.1rem;
+}
+
+.price p:last-child>span a {
+    color: orange;
+    font-size: 0.12rem
+}
+
+.price p:last-child>span:nth-of-type(2) {
+    background: orange;
+    color: white;
+}

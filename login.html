@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        html {
+            font-size: 100px;
+        }
+        
+        body {
+            font-size: 0.16rem;
+            margin: 0 0.2rem;
+        }
+        
+        .header {
+            margin-top: 0.3rem;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .header a {
+            display: inline-block;
+            color: blue;
+            float: right;
+        }
+        
+        .header .left {
+            display: inline-block;
+            background: url("images/icon/sprites.png")no-repeat;
+            background-size: 3.75rem 4.75rem;
+            background-position: -0.27rem -0.14rem;
+            height: 0.2rem;
+            width: 0.2rem;
+            vertical-align: top;
+            float: left;
+        }
+        
+        form {
+            margin-top: 0.5rem;
+            line-height: 0.4rem;
+        }
+        
+        form p:first-child,
+        p:nth-of-type(2) {
+            border-bottom: 1px solid #666666;
+        }
+        
+        form label {
+            width: 20%;
+            display: inline-block;
+        }
+        
+        #username,
+        #password {
+            width: 75%;
+            border: none;
+            height: 0.4rem;
+            color: #666666;
+        }
+        
+        form p:nth-of-type(3) {
+            margin-top: 0.2rem;
+            width: 100%;
+        }
+        
+        form p:nth-of-type(3) input {
+            background: rgb(240, 176, 0);
+            width: 100%;
+            color: #FFFF;
+            border: none;
+            line-height: 0.4rem;
+            border-radius: 0.05rem;
+        }
+        
+        form p:last-child a {
+            display: inline-block;
+            margin-top: 0.1rem;
+            color: #666666;
+        }
+        
+        form p:last-child a:first-child {
+            float: left;
+        }
+        
+        form p:last-child a:last-child {
+            float: right;
+        }
+        
+        form i {
+            display: inline-block;
+            width: 5%;
+            height: 0.1rem;
+            vertical-align: middle;
+            background: url("images/icon/sprites.png")no-repeat;
+            background-size: 3.75rem 4.75rem;
+        }
+        
+        .name-icon {
+            background-position: -1.13rem -0.2rem;
+        }
+        
+        .pwd-icon {
+            background-position: -1.41rem -0.2rem;
+        }
+        
+        footer {
+            margin-top: 1rem;
+            height: 0.5rem;
+            box-sizing: border-box;
+            padding: 0 0.1rem;
+        }
+        
+        footer i {
+            display: block;
+            float: left;
+            width: 20%;
+            height: 0.5rem;
+            text-align: center;
+        }
+        
+        footer a {
+            display: block;
+            width: 0.4rem;
+            height: 0.4rem;
+            border-radius: 50%;
+            background: url("images/icon/sprites.png")no-repeat;
+            background-size: 3.75rem 4.75rem;
+            margin: auto;
+        }
+        
+        footer i:nth-of-type(1) a {
+            background-position: -1.65rem -0.06rem;
+            background-color: green;
+        }
+        
+        footer i:nth-of-type(2) a {
+            background-position: -2rem -0.06rem;
+            background-color: aqua;
+        }
+        
+        footer i:nth-of-type(3) a {
+            background-position: -2.36rem -0.06rem;
+            background-color: #999999;
+        }
+        
+        footer i:nth-of-type(4) a {
+            background-position: -2.72rem -0.06rem;
+            background-color: rgba(216, 19, 19, 0.755);
+        }
+        
+        footer i:nth-of-type(5) a {
+            background-position: -3.09rem -0.06rem;
+            background-color: rgb(37, 6, 175);
+        }
+    </style>
+</head>
+<p class="header"><span class="left"></span><span class="login">登录</span> <a href="#">注册</a></p>
+<section>
+    <form action="" method="post">
+        <p>
+            <label for="username">登录名</label><input type="text" id="username" placeholder="手机号码/用户名/邮箱"><i class=name-icon></i>
+        </p>
+        <p>
+            <label for="password">密码</label><input type="password" id="password" placeholder="登录密码"><i class="pwd-icon"></i>
+        </p>
+        <p><input type="submit" id="submit" value="登录"></p>
+        <p><a href="">登录遇到问题?</a><a href="">境外手机登录</a></p>
+    </form>
+</section>
+<footer>
+    <i><a href=""></a></i>
+    <i><a href=""></a></i>
+    <i><a href=""></a></i>
+    <i><a href=""></a></i>
+    <i><a href=""></a></i>
+</footer>
+
+<body>
+
+</body>
+<script src="js/js.js"></script>
+
+</html>
